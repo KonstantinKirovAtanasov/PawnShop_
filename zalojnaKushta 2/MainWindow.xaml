@@ -1,0 +1,17 @@
+﻿<Window x:Class="zalojnaKushta_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zalojnaKushta_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Width="0" Height="0">
+        <Label Content="Парола:" Margin="-177,-109,25,78"></Label>
+        <Label Content="Потребителско Име:" Margin="-177,-145,25,114"></Label>
+        <TextBox Name="UserNameTextBox" Margin="-20,-145,-167,114" MaxLines="1"/>
+        <PasswordBox Name="UserPasswordTextBox" Margin="-20,-109,-167,78" />
+        <Button Name="LoginButton" Content="Влизане" Margin="68,127,-156,-149" Click="LoginButton_Click"></Button>
+        <Button Name="QuitButton" Content="Отказ" Margin="161,127,-249,-149" Click="QuitButton_Click"></Button>
+    </Grid>
+ </Window>

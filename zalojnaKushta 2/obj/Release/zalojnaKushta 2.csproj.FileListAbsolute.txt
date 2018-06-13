@@ -1,0 +1,30 @@
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\zalojnaKushta 2.exe.config
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\zalojnaKushta 2.exe
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\zalojnaKushta 2.pdb
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\EntityFramework.dll
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\EntityFramework.xml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\AdminWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\DealForm.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\EmployeeWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\MainWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\PladgedForm.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\SetAsSelled.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\SetPladged.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\App.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2_MarkupCompile.cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2_MarkupCompile.lref
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\AdminWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\DealForm.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\EmployeeWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\MainWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\PladgedForm.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\SetAsSelled.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\SetPladged.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2.g.resources
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta_2.Properties.Resources.resources
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2.csproj.GenerateResource.Cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2.csproj.CoreCompileInputs.cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2.exe
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Release\zalojnaKushta 2.pdb

@@ -1,0 +1,20 @@
+﻿<Window x:Class="zalojnaKushta_2.DealForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zalojnaKushta_2"
+        mc:Ignorable="d"
+        Title="DealForm" Height="250" Width="300">
+    <Grid>
+        <Label Content="Категория:" Margin="10,10,161.6,179"/>
+        <ComboBox Name="TypeComboBox"  Margin="137,10,9.6,179"></ComboBox>
+        <Label Content="Цена:" Margin="10,46,161.6,143"></Label>
+        <TextBox Name="PriceTextBox" Margin="137,46,9.6,143"></TextBox>
+        <Label Content="Име на клиента:" Margin="10,82,161.6,107" RenderTransformOrigin="0.532,-0.878"></Label>
+        <TextBox Name="ClientNameTextBox" Margin="137,82,9.6,107"></TextBox>
+        <Label Content="Вещ:" Margin="10,118,161.6,71" RenderTransformOrigin="1.534,-0.286"></Label>
+        <TextBox Name="ItemDescTextBox" Margin="137,118,9.6,71"></TextBox>
+        <Button Name="CreateDealButton" Content="Готово" Margin="10,168,9.6,10" Click="CreateDealButton_Click"></Button>
+    </Grid>
+</Window>

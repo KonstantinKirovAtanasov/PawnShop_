@@ -1,0 +1,80 @@
+﻿<Window x:Name="W" x:Class="zalojnaKushta_2.EmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zalojnaKushta_2"
+        mc:Ignorable="d"
+        Title="EmployeeWindow" ScrollViewer.CanContentScroll="True" MinWidth="1100" MinHeight="850" Height="850" Width="960" MouseMove="W_MouseMove">
+    <Viewbox Stretch="Fill" StretchDirection="UpOnly">
+        <Grid Width="0" Height="0">
+            <GroupBox Header="Сделки:" HorizontalAlignment="Left" Height="513" VerticalAlignment="Top" Width="540" Margin="-536,-289,-4,-224">
+                <DataGrid Name="DealsDataGrid" AutoGenerateColumns="False" SelectionChanged="DealsDataGrid_SelectionChanged" SelectionMode="Single" IsReadOnly="True" ItemsSource="{Binding deals}" SelectedItem="{Binding selectedDeal}" Margin="0,10,-1,-0.4">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="№" Binding="{Binding Path=ID}" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Вещ:" Binding="{Binding Path=ItemDesc}" Width="0.05*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Клиент:" Binding="{Binding Path=ClientName}" Width="0.05*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Категория:" Binding="{Binding Path=ItemType}" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Цена:" Binding="{Binding Path=Price}" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Вид Сделка:" Binding="{Binding Path=DealType}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Дата на покупка:" Binding="{Binding Path=DateOfBuy}" ></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+            <GroupBox Header="Заложено:" HorizontalAlignment="Left" Height="622" VerticalAlignment="Top" Width="535" Margin="4,-398,-539,-224">
+                <DataGrid Name="PladgedDataGrid" SelectionMode="Single" IsReadOnly="True" ItemsSource="{Binding pladgeds}" SelectedItem="{Binding selectedPladged}" Margin="0,10,-2,0.6" AutoGenerateColumns="False" SelectionChanged="PladgedDataGrid_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="№" Binding="{Binding Path=ID}" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Вещ" Binding="{Binding Path=ItemDesc}" Width="0.05*" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Клиент" Binding="{Binding Path=ClientName}" Width="0.05*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Категория" Binding="{Binding Path=ItemType}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Оценка" Binding="{Binding Path=Price}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Лихва" Binding="{Binding Path=increaseForMonth}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Върнато" Binding="{Binding Path=returned}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="КраенСрок" Binding="{Binding Path=DeadLine}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </GroupBox>
+            <GroupBox Margin="-536,-398,-4,294">
+                <Grid Width="0" Height="0">
+                    <Label Content="Изхарчено за покупки за деня:" Margin="-242,19,57,-48"></Label>
+                    <Label Content="Изкарано от продажби за деня:" Margin="-242,-10,57,-19"></Label>
+                    <Label Content="Всичко похарчено:" Margin="20,19,-140,-48"></Label>
+                    <Label Content="Всичко изкарано:" Margin="20,-10,-140,-19"></Label>
+                    <Label Content="Потребител:" Margin="20,-44,-120,15" ></Label>
+                    <Label Content="Дата:" Margin="-242,-44,199,15" ></Label>
+                    <Label Name="DateTimeLabel" Content="{Binding Path=date}" Margin="-194,-40,57,11"></Label>
+                    <Label Name="UserNameLabel" Content="{Binding Path=User.UserName}" Margin="120,-44,-244,15"></Label>
+                    <Label Name="GetFromTheDay" Content="{Binding dayEarned}" Margin="-44,-10,-15,-19"></Label>
+                    <Label Name="SpentForTheDay" Content="{Binding daySpent}" Margin="-44,19,-15,-48"></Label>
+                    <Label Name="OverallGet" Content="{Binding Path=User.earned}" Margin="140,-10,-244,-19"></Label>
+                    <Label Name="OverAllSpent" Content="{Binding Path=User.spent}" Margin="140,19,-244,-48" RenderTransformOrigin="0.5,0.5"></Label>
+                </Grid>
+            </GroupBox>
+            <Button Name="AddDealButton" Content="Добави" Margin="-536,229,376,-259" Click="AddDealButton_Click"></Button>
+            <Button Name="AddPladgetButton" Content="Добави" Margin="4,229,-164,-259" Click="AddPladgetButton_Click"></Button>
+            <Button Name="MarkAsSelled" Content="Отбележи като продадено" Margin="-371,229,210,-259" Click="MarkAsSelled_Click" RenderTransformOrigin="0.484,-1.897"></Button>
+            <Button Name="IncomeForPladged" Content="Внасяне на пари" Margin="169,229,-329,-259" Click="IncomeForPladged_Click"></Button>
+            <Button Name="DeletePladged" Content="Изтрий" Margin="356,229,-521,-259" Click="DeletePladged_Click"></Button>
+            <GroupBox Header="Филтрирай" Margin="4,264,-539,-365" RenderTransformOrigin="0.5,0.5">
+                <Grid Margin="0,0,-2.8,-6.4">
+                    <Label Content="Потребителско име:" Margin="10,10,375.2,49.8"></Label>
+                    <TextBox Name="ClientNamePladgedsFilterTextBox" MaxLines="1"  Margin="10,40,375.2,14.8"></TextBox>
+                    <Label Content="Категория:" Margin="155,10,228.2,49.8"></Label>
+                    <ComboBox Name="FilterItemTypeComboBoxPladged" Margin="155,40,228.2,14.8"></ComboBox>
+                    <Button Name="filterListPladged" Content="Филтрирай" Margin="339,10,11.2,14.8" Click="filterListPladged_Click"></Button>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Филтрирай" Margin="-536,264,1,-365" RenderTransformOrigin="0.5,0.5">
+                <Grid Margin="0,0,-2.8,-6.4">
+                    <Label Content="Потребителско име:" Margin="10,10,375.2,49.8"></Label>
+                    <TextBox Name="ClientNameDealFilterDeal" Margin="10,40,375.2,14.8" MaxLines="1"></TextBox>
+                    <Label Content="Категория:" Margin="155,10,228.2,49.8"></Label>
+                    <ComboBox Name="FilterItemTypeComboBoxDeal" Margin="155,40,228.2,14.8"></ComboBox>
+                    <Button Name="filterListDeal" Content="Филтрирай" Margin="328,10,11.2,14.8" Click="filterListDeal_Click"></Button>
+                </Grid>
+            </GroupBox>
+            <Button x:Name="DeleteDeal" Content="Изтрий" Margin="-185,229,20,-259" Click="DeleteDeal_Click"/>
+        </Grid>
+    </Viewbox>
+</Window>

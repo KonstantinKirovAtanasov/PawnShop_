@@ -1,0 +1,31 @@
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\zalojnaKushta 2.exe.config
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\zalojnaKushta 2.exe
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\zalojnaKushta 2.pdb
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\EntityFramework.dll
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\EntityFramework.xml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\MainWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\App.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2_MarkupCompile.cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2_MarkupCompile.lref
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\MainWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.g.resources
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta_2.Properties.Resources.resources
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.csproj.GenerateResource.Cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.csproj.CoreCompileInputs.cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.exe
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.pdb
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\AdminWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\AdminWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\EmployeeWindow.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\EmployeeWindow.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\DealForm.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\DealForm.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\zalojnaKushta 2.csprojResolveAssemblyReference.cache
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\PladgedForm.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\PladgedForm.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\SetAsSelled.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\SetAsSelled.baml
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\SetPladged.g.cs
+C:\Users\v\source\repos\zalojnaKushta 2\zalojnaKushta 2\obj\Debug\SetPladged.baml

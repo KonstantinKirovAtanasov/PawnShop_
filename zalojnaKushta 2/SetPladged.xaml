@@ -1,0 +1,24 @@
+﻿<Window x:Class="zalojnaKushta_2.SetPladged"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zalojnaKushta_2"
+        mc:Ignorable="d"
+        Title="SetPladged" Height="350" Width="500">
+    <Grid Margin="0,0,-0.4,-1.6">
+        <GroupBox Margin="10,10,248,95.4" Header="Дата за връщане:">
+            <Calendar Name="DeadLineNewCalendar"  Margin="0,10,-3,1"></Calendar>
+        </GroupBox>
+        <GroupBox Margin="250,10,-1,50" Header="Внесена Сума:">
+            <Grid Margin="0,10,-0.2,-0.4">
+                <Label Content="Внесена сума:" Margin="10,10,115,184.4"></Label>
+                <TextBox Name="EarnedMoney" Margin="123,10,10,189.4"></TextBox>
+                <Label Content="{Binding Path=PladgedInFo}" Margin="10,98,10,10.4" FontWeight="Bold"></Label>
+                <Label Content="Затворен ли се случая:" Margin="10,46,74,150.4"></Label>
+                <CheckBox Name="isClosed" Margin="184,53,0,150" HorizontalAlignment="Left" Width="17"></CheckBox>
+            </Grid>
+        </GroupBox>
+        <Button Content="Готово" Name="ReadyButton" Margin="10,277,10,10.4" Click="ReadyButton_Click"></Button>
+    </Grid>
+</Window>

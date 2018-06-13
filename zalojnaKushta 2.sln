@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zalojnaKushta 2", "zalojnaKushta 2\zalojnaKushta 2.csproj", "{46131A8E-A3B5-4D94-B2D5-30866EE63B95}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZKSetup", "ZKSetup\ZKSetup.vdproj", "{0C4DCD04-6973-49B4-9655-59CD8C61010E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46131A8E-A3B5-4D94-B2D5-30866EE63B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46131A8E-A3B5-4D94-B2D5-30866EE63B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46131A8E-A3B5-4D94-B2D5-30866EE63B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46131A8E-A3B5-4D94-B2D5-30866EE63B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4DCD04-6973-49B4-9655-59CD8C61010E}.Debug|Any CPU.ActiveCfg = Debug
+		{0C4DCD04-6973-49B4-9655-59CD8C61010E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42FC1FBD-AF7E-450C-B21C-89B13CAAAF37}
+	EndGlobalSection
+EndGlobal

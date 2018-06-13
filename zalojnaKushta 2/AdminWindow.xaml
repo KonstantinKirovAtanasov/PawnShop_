@@ -1,0 +1,32 @@
+﻿<Window x:Class="zalojnaKushta_2.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zalojnaKushta_2"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="600" Width="800">
+
+    <Grid Width="0" Height="0">
+        <GroupBox Header="Потребители:" HorizontalAlignment="Left" Height="547" VerticalAlignment="Top" Width="289" Margin="-387,-271,0,-276" RenderTransformOrigin="0.5,0.5">
+            <Grid Width="0" Height="0">
+                <ListBox Name="UserNamesListBox" ItemsSource="{Binding UsersList}" Margin="-131,-253,-131,-168" SelectionChanged="UserNamesListBox_SelectionChanged"></ListBox>
+            </Grid>
+        </GroupBox>
+        <GroupBox Name="UserData" Header="Опции за промяна:" Margin="-93,-271,-388,-276">
+            <Grid Width="0" Height="0">
+                <Label Content="Потребителско име:" Margin="-226,-249,73,212"></Label>
+                <Label Content="Парола:" Margin="-226,-207,73,170"></Label>
+                <Label Content="Роля:" Margin="-226,-165,73,128"></Label>
+                <TextBox Name="UserNameTextBox" Text="{Binding Path=selectedUser.Username}" Margin="0,-249,-227,219"></TextBox>
+                <TextBox Name="UserPasswordTextBox" BindingGroup="{Binding Source=SelectedUser.Password}" Text="{Binding Path=@Password}" Margin="0,-207,-227,177"></TextBox>
+                <ComboBox Name="Roles" Text="{Binding XPath=@SelectedUser.UserRole}" Margin="0,-165,-133,128"></ComboBox>
+                <Button Name="DeleteUser" Content="Изтрий" Margin="-220,230,112,-257" Click="DeleteUser_Click"></Button>
+                <Button Name="AddUser" Content="Добави" Margin="-107,230,-1,-257" Click="AddUser_Click"></Button>
+                <Button Name="ChangeUser" Content="Промени" Margin="6,230,-114,-257" Click="ChangeUser_Click"></Button>
+                <Button Name="Quit" Content="Отказ" Margin="119,230,-227,-257" Click="Quit_Click"></Button>
+            </Grid>
+        </GroupBox>
+    </Grid>
+
+</Window>
